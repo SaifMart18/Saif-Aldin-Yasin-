@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيف مارت - موقع تعريفي</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">سيف</div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عني</a></li>
+                <li><a href="#skills">مهاراتي</a></li>
+                <li><a href="#projects">مشاريعي</a></li>
+                <li><a href="#contact">اتصل بي</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>مرحباً، أنا سيف</h1>
+                <p class="subtitle">مطور ويب وعاشق التكنولوجيا 💻</p>
+                <a href="#projects" class="btn btn-primary">شاهد مشاريعي</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>عني</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        أنا مطور ويب شغوف بإنشاء تطبيقات ويب حديثة وسهلة الاستخدام. 
+                        أحب التعلم المستمر واستكشاف التقنيات الجديدة في عالم البرمجة.
+                    </p>
+                    <p>
+                        مع خبرة في تطوير الواجهات الأمامية والخادم، أسعى لإنشاء حلول شاملة 
+                        تلبي احتياجات المستخدمين والعملاء.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/250" alt="صورة شخصية">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>مهاراتي</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML & CSS</h3>
+                    <p>تصميم واجهات ويب احترافية وسريعة الاستجابة</p>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>برمجة تفاعلية وديناميكية على الواجهة الأمامية</p>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>React</h3>
+                    <p>بناء تطبيقات ويب حديثة باستخدام React</p>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Node.js</h3>
+                    <p>تطوير الخادم والواجهات البرمجية</p>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>إدارة الإصدارات والتعاون في المشاريع</p>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>UI/UX Design</h3>
+                    <p>تصميم واجهات مستخدم جميلة وعملية</p>
+                    <div class="skill-level">
+                        <div class="progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>مشاريعي</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300" alt="مشروع 1">
+                    <div class="project-info">
+                        <h3>تطبيق إدارة المهام</h3>
+                        <p>تطبيق ويب لإدارة المهام اليومية مع واجهة مستخدم رائعة</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">شاهد المشروع</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300" alt="مشروع 2">
+                    <div class="project-info">
+                        <h3>متجر إلكتروني</h3>
+                        <p>موقع تجارة إلكترونية كامل مع نظام الدفع</p>
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>Stripe</span>
+                        </div>
+                        <a href="#" class="project-link">شاهد المشروع</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300" alt="مشروع 3">
+                    <div class="project-info">
+                        <h3>تطبيق الطقس</h3>
+                        <p>تطبيق يعرض أحوال الطقس في الوقت الفعلي</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
+                        <a href="#" class="project-link">شاهد المشروع</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>تواصل معي</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="اسمك" required>
+                    <input type="email" placeholder="بريدك الإلكتروني" required>
+                    <textarea placeholder="رسالتك..." rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">أرسل الرسالة</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📧 البريد الإلكتروني</h3>
+                        <p>your.email@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📱 الهاتف</h3>
+                        <p>+966 50 000 0000</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🔗 وسائل التواصل</h3>
+                        <div class="social-links">
+                            <a href="https://twitter.com" target="_blank">تويتر</a>
+                            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                            <a href="https://github.com/SaifMart18" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 سيف مارت. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
